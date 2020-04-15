@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		69D59AC02446071C00478121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59ABF2446071C00478121 /* AppDelegate.swift */; };
-		69D59AC22446071C00478121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59AC12446071C00478121 /* SceneDelegate.swift */; };
-		69D59AC42446071C00478121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59AC32446071C00478121 /* ViewController.swift */; };
-		69D59AC72446071C00478121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D59AC52446071C00478121 /* Main.storyboard */; };
-		69D59AC92446072100478121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D59AC82446072100478121 /* Assets.xcassets */; };
-		69D59ACC2446072100478121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D59ACA2446072100478121 /* LaunchScreen.storyboard */; };
-		69D59AD42446C13100478121 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59AD32446C13100478121 /* DetailViewController.swift */; };
-		69D59AD62446C14B00478121 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59AD52446C14B00478121 /* AcademiesViewController.swift */; };
-		69D59AD82446C15C00478121 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59AD72446C15C00478121 /* ProfileViewController.swift */; };
-		69D59ADA2446C1B800478121 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59AD92446C1B800478121 /* ChallengesViewController.swift */; };
+		69D59B0E2446E10E00478121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59B0D2446E10E00478121 /* AppDelegate.swift */; };
+		69D59B102446E10E00478121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59B0F2446E10E00478121 /* SceneDelegate.swift */; };
+		69D59B122446E10E00478121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D59B112446E10E00478121 /* ViewController.swift */; };
+		69D59B152446E10E00478121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D59B132446E10E00478121 /* Main.storyboard */; };
+		69D59B172446E11300478121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D59B162446E11300478121 /* Assets.xcassets */; };
+		69D59B1A2446E11300478121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D59B182446E11300478121 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69D59ABC2446071C00478121 /* DicodingApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicodingApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D59ABF2446071C00478121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69D59AC12446071C00478121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69D59AC32446071C00478121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69D59AC62446071C00478121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69D59AC82446072100478121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		69D59ACB2446072100478121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		69D59ACD2446072100478121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69D59AD32446C13100478121 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		69D59AD52446C14B00478121 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
-		69D59AD72446C15C00478121 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		69D59AD92446C1B800478121 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		69D59B0A2446E10E00478121 /* MySimpleHeroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleHeroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D59B0D2446E10E00478121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69D59B0F2446E10E00478121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69D59B112446E10E00478121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69D59B142446E10E00478121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D59B162446E11300478121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D59B192446E11300478121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D59B1B2446E11300478121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69D59AB92446071C00478121 /* Frameworks */ = {
+		69D59B072446E10E00478121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		69D59AB32446071C00478121 = {
+		69D59B012446E10E00478121 = {
 			isa = PBXGroup;
 			children = (
-				69D59ABE2446071C00478121 /* DicodingApps */,
-				69D59ABD2446071C00478121 /* Products */,
+				69D59B0C2446E10E00478121 /* MySimpleHeroApp */,
+				69D59B0B2446E10E00478121 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		69D59ABD2446071C00478121 /* Products */ = {
+		69D59B0B2446E10E00478121 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69D59ABC2446071C00478121 /* DicodingApps.app */,
+				69D59B0A2446E10E00478121 /* MySimpleHeroApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69D59ABE2446071C00478121 /* DicodingApps */ = {
+		69D59B0C2446E10E00478121 /* MySimpleHeroApp */ = {
 			isa = PBXGroup;
 			children = (
-				69D59ABF2446071C00478121 /* AppDelegate.swift */,
-				69D59AC12446071C00478121 /* SceneDelegate.swift */,
-				69D59AC32446071C00478121 /* ViewController.swift */,
-				69D59AD32446C13100478121 /* DetailViewController.swift */,
-				69D59AC52446071C00478121 /* Main.storyboard */,
-				69D59AC82446072100478121 /* Assets.xcassets */,
-				69D59ACA2446072100478121 /* LaunchScreen.storyboard */,
-				69D59ACD2446072100478121 /* Info.plist */,
-				69D59AD52446C14B00478121 /* AcademiesViewController.swift */,
-				69D59AD72446C15C00478121 /* ProfileViewController.swift */,
-				69D59AD92446C1B800478121 /* ChallengesViewController.swift */,
+				69D59B0D2446E10E00478121 /* AppDelegate.swift */,
+				69D59B0F2446E10E00478121 /* SceneDelegate.swift */,
+				69D59B112446E10E00478121 /* ViewController.swift */,
+				69D59B132446E10E00478121 /* Main.storyboard */,
+				69D59B162446E11300478121 /* Assets.xcassets */,
+				69D59B182446E11300478121 /* LaunchScreen.storyboard */,
+				69D59B1B2446E11300478121 /* Info.plist */,
 			);
-			path = DicodingApps;
+			path = MySimpleHeroApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69D59ABB2446071C00478121 /* DicodingApps */ = {
+		69D59B092446E10E00478121 /* MySimpleHeroApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69D59AD02446072100478121 /* Build configuration list for PBXNativeTarget "DicodingApps" */;
+			buildConfigurationList = 69D59B1E2446E11300478121 /* Build configuration list for PBXNativeTarget "MySimpleHeroApp" */;
 			buildPhases = (
-				69D59AB82446071C00478121 /* Sources */,
-				69D59AB92446071C00478121 /* Frameworks */,
-				69D59ABA2446071C00478121 /* Resources */,
+				69D59B062446E10E00478121 /* Sources */,
+				69D59B072446E10E00478121 /* Frameworks */,
+				69D59B082446E10E00478121 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DicodingApps;
-			productName = DicodingApps;
-			productReference = 69D59ABC2446071C00478121 /* DicodingApps.app */;
+			name = MySimpleHeroApp;
+			productName = MySimpleHeroApp;
+			productReference = 69D59B0A2446E10E00478121 /* MySimpleHeroApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		69D59AB42446071C00478121 /* Project object */ = {
+		69D59B022446E10E00478121 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = github.com/sseno;
 				TargetAttributes = {
-					69D59ABB2446071C00478121 = {
+					69D59B092446E10E00478121 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 69D59AB72446071C00478121 /* Build configuration list for PBXProject "DicodingApps" */;
+			buildConfigurationList = 69D59B052446E10E00478121 /* Build configuration list for PBXProject "MySimpleHeroApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 69D59AB32446071C00478121;
-			productRefGroup = 69D59ABD2446071C00478121 /* Products */;
+			mainGroup = 69D59B012446E10E00478121;
+			productRefGroup = 69D59B0B2446E10E00478121 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69D59ABB2446071C00478121 /* DicodingApps */,
+				69D59B092446E10E00478121 /* MySimpleHeroApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		69D59ABA2446071C00478121 /* Resources */ = {
+		69D59B082446E10E00478121 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D59ACC2446072100478121 /* LaunchScreen.storyboard in Resources */,
-				69D59AC92446072100478121 /* Assets.xcassets in Resources */,
-				69D59AC72446071C00478121 /* Main.storyboard in Resources */,
+				69D59B1A2446E11300478121 /* LaunchScreen.storyboard in Resources */,
+				69D59B172446E11300478121 /* Assets.xcassets in Resources */,
+				69D59B152446E10E00478121 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69D59AB82446071C00478121 /* Sources */ = {
+		69D59B062446E10E00478121 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D59AD82446C15C00478121 /* ProfileViewController.swift in Sources */,
-				69D59AC42446071C00478121 /* ViewController.swift in Sources */,
-				69D59ADA2446C1B800478121 /* ChallengesViewController.swift in Sources */,
-				69D59AC02446071C00478121 /* AppDelegate.swift in Sources */,
-				69D59AD62446C14B00478121 /* AcademiesViewController.swift in Sources */,
-				69D59AC22446071C00478121 /* SceneDelegate.swift in Sources */,
-				69D59AD42446C13100478121 /* DetailViewController.swift in Sources */,
+				69D59B122446E10E00478121 /* ViewController.swift in Sources */,
+				69D59B0E2446E10E00478121 /* AppDelegate.swift in Sources */,
+				69D59B102446E10E00478121 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69D59AC52446071C00478121 /* Main.storyboard */ = {
+		69D59B132446E10E00478121 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				69D59AC62446071C00478121 /* Base */,
+				69D59B142446E10E00478121 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		69D59ACA2446072100478121 /* LaunchScreen.storyboard */ = {
+		69D59B182446E11300478121 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				69D59ACB2446072100478121 /* Base */,
+				69D59B192446E11300478121 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		69D59ACE2446072100478121 /* Debug */ = {
+		69D59B1C2446E11300478121 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		69D59ACF2446072100478121 /* Release */ = {
+		69D59B1D2446E11300478121 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,36 +280,36 @@
 			};
 			name = Release;
 		};
-		69D59AD12446072100478121 /* Debug */ = {
+		69D59B1F2446E11300478121 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG2WD4B4G7;
-				INFOPLIST_FILE = DicodingApps/Info.plist;
+				INFOPLIST_FILE = MySimpleHeroApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rohmatsuseno.DicodingApps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohmatsuseno.MySimpleHeroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		69D59AD22446072100478121 /* Release */ = {
+		69D59B202446E11300478121 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG2WD4B4G7;
-				INFOPLIST_FILE = DicodingApps/Info.plist;
+				INFOPLIST_FILE = MySimpleHeroApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rohmatsuseno.DicodingApps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rohmatsuseno.MySimpleHeroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69D59AB72446071C00478121 /* Build configuration list for PBXProject "DicodingApps" */ = {
+		69D59B052446E10E00478121 /* Build configuration list for PBXProject "MySimpleHeroApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69D59ACE2446072100478121 /* Debug */,
-				69D59ACF2446072100478121 /* Release */,
+				69D59B1C2446E11300478121 /* Debug */,
+				69D59B1D2446E11300478121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69D59AD02446072100478121 /* Build configuration list for PBXNativeTarget "DicodingApps" */ = {
+		69D59B1E2446E11300478121 /* Build configuration list for PBXNativeTarget "MySimpleHeroApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69D59AD12446072100478121 /* Debug */,
-				69D59AD22446072100478121 /* Release */,
+				69D59B1F2446E11300478121 /* Debug */,
+				69D59B202446E11300478121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 69D59AB42446071C00478121 /* Project object */;
+	rootObject = 69D59B022446E10E00478121 /* Project object */;
 }
