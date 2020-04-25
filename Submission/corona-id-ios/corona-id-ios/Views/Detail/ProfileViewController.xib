@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="corona_id_ios" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="MWb-VW-Ild" id="pk4-yT-lJ6"/>
+                <outlet property="profileImageView" destination="rVB-4l-z28" id="nlu-qh-0QL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWb-VW-Ild">
+                    <rect key="frame" x="20" y="164" width="374" height="300"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rohmat Suseno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lt-JP-TfM">
+                            <rect key="frame" x="116.5" y="85" width="141.5" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bandung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhh-bu-zJa">
+                            <rect key="frame" x="158" y="117" width="58" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rohmatsuseno@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpe-I6-iPM">
+                            <rect key="frame" x="79.5" y="169" width="215" height="21.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Vpe-I6-iPM" firstAttribute="top" secondItem="hhh-bu-zJa" secondAttribute="bottom" constant="35" id="0M5-qa-Hj1"/>
+                        <constraint firstItem="hhh-bu-zJa" firstAttribute="top" secondItem="7lt-JP-TfM" secondAttribute="bottom" constant="8" id="9XC-ex-xOg"/>
+                        <constraint firstItem="Vpe-I6-iPM" firstAttribute="centerX" secondItem="MWb-VW-Ild" secondAttribute="centerX" id="ZtM-cr-8Xr"/>
+                        <constraint firstItem="7lt-JP-TfM" firstAttribute="centerX" secondItem="MWb-VW-Ild" secondAttribute="centerX" id="gP7-h3-HvB"/>
+                        <constraint firstAttribute="height" constant="300" id="pe7-Er-zh3"/>
+                        <constraint firstItem="hhh-bu-zJa" firstAttribute="centerX" secondItem="MWb-VW-Ild" secondAttribute="centerX" id="qNR-Cm-1Bd"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_rohmats" translatesAutoresizingMaskIntoConstraints="NO" id="rVB-4l-z28">
+                    <rect key="frame" x="137" y="94" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="JRx-bq-t8c"/>
+                        <constraint firstAttribute="width" constant="140" id="pYN-RT-M0d"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MWb-VW-Ild" secondAttribute="trailing" constant="20" id="Beg-8B-uw5"/>
+                <constraint firstItem="MWb-VW-Ild" firstAttribute="top" secondItem="rVB-4l-z28" secondAttribute="bottom" constant="-70" id="Gj2-YF-tjg"/>
+                <constraint firstItem="MWb-VW-Ild" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="QSR-CC-LZ4"/>
+                <constraint firstItem="MWb-VW-Ild" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="120" id="mme-ZV-sOR"/>
+                <constraint firstItem="7lt-JP-TfM" firstAttribute="top" secondItem="rVB-4l-z28" secondAttribute="bottom" constant="15" id="sJc-n3-kbY"/>
+                <constraint firstItem="rVB-4l-z28" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vyn-d4-eZj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="profile_rohmats" width="940" height="940"/>
+    </resources>
+</document>
